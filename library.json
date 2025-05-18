@@ -1,0 +1,24 @@
+{
+  "name": "ENVFile",
+  "version": "1.0.0",
+  "description": "The ENVFile library simplifies configuration management in Arduino projects, supporting key-value storage for types like strings, integers, floats, doubles, and booleans. It integrates with file systems like LittleFS, SPIFFS, SD, ideal for ESP32/ESP8266. Features include type-safe methods, custom file paths, and batch saving.",
+  "keywords": "env, file, config, configuration, settings",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nht173/ENVFile.git"
+  },
+  "authors": [
+    {
+      "name": "Thai Nguyen",
+      "email": "nhthai173@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "frameworks": "arduino",
+  "platforms": [
+    "espressif32",
+    "espressif8266"
+  ]
+}
